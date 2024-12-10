@@ -1,0 +1,14 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Centraliza as cartas horizontalmente */
+    align-items: center;      /* Centraliza as cartas verticalmente */
+    gap: 0;                   /* Remove o espaço entre as cartas */
+}
+
+.grid img {
+    margin: 0;                /* Remove qualquer margem ao redor das cartas */
+    padding: 0;               /* Remove qualquer preenchimento ao redor das cartas */
+    width: 200px;             /* Ajusta a largura das cartas, se necessário */
+    height: 200px;            /* Ajusta a altura das cartas, se necessário */
+}
